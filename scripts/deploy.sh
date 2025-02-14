@@ -13,7 +13,7 @@ sudo chmod +x /home/ec2-user/cicdproject/scripts/deploy.sh
 
 if [ -z $CURRENT_PID ]
 then
-  echo "> 종료할것 없음"
+  echo "> 종료할것 없음."
 else
   echo "> kill -9 $CURRENT_PID"
   kill -15 $CURRENT_PID
